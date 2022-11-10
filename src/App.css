@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+button:hover{
+  cursor: grab;
+}
+.App >div{
+  border: 1px solid;
+  margin: 1%;
+}
+#listOuterContainer{
+  width: 50%;
+}
+#listContainer table{
+  width: 80%;
+  margin: 2% auto;
+  border-collapse: collapse;
+  min-width: 440px;
+}
+td{
+  border-top: 1px solid #0000003b;
+}
+td, th {
+  text-align: left;
+  padding: 5px;
+}
+#listContainer button{
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  display: block;
+}
+.btnDelete{
+  color: red;
+}
+.btnEdit{
+  color: #0e52bb;
+}
+#addContactDiv{
+padding: 2%;
+}
+#formAddContact{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+#formAddContact div{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+#formAddContact div input{
+  width: 150px;
+  margin: 0 0 0 5px;
+}
+#btnAddUpdate{
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  font-size: 15px;
+  margin: 2% 0;
+  color: white;
+  width: 100%;
+}
